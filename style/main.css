@@ -1,0 +1,72 @@
+.backgroundImg {
+    background-attachment: fixed;
+}
+
+h1 {
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: skyblue;
+}
+
+.backgroundPics  {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: black;
+    letter-spacing: 0.5px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(82, 192, 243, 0.5);
+    width: 450px;
+    height: 550px;
+    display: block;
+    margin: auto;
+}
+
+#igeJpg {
+    width: 50px;
+    height:50px;
+    margin-right: 175px;
+    margin-left: 20px;   
+}
+
+#gwaJpg {
+    border: 10px;
+    border-style: double;
+    border-color: rgb(13, 151, 206);
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.desc {
+    margin-left: 25px;
+    text-align: justify;
+}
+
+#igsText {
+    margin-top: -38px;
+    margin-left: 20px;
+}
+
+.buttonNext {
+    background-color: rgb(140, 175, 241);
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: rgb(5, 1, 20);
+    padding: 6px;
+    margin-left: 310px;
+    cursor: pointer;
+}
+.buttonNext:hover {
+    background-color: rgb(130, 130, 241);
+}
+
+.btnInp:hover {
+    background-color: #AC87C5;
+}
+
+.buttonNext:active {
+    background-color: #756AB6;
+    transform: translateY(2px);
+}
